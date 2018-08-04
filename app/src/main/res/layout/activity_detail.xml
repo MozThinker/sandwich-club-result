@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorLightPrimary"
 
     tools:context="com.udacity.sandwichclub.DetailActivity">
 
@@ -40,6 +41,7 @@
         tools:layout_editor_absoluteX="-151dp">
 
         <LinearLayout
+
             android:padding="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,7 +62,8 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detail_also_known_as_label"
@@ -69,6 +72,7 @@
                     tools:layout_editor_absoluteY="276dp" />
 
                 <TextView
+                    android:textColor="@color/colorSecondaryText"
                     android:id="@+id/also_known_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -84,6 +88,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:textColor="@color/colorPrimaryText"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -91,6 +96,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:textColor="@color/colorSecondaryText"
                     android:textSize="16sp"
                     android:fontFamily="sans-serif"
                     android:id="@+id/description_tv"
@@ -108,7 +114,8 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detail_ingredients_label"
@@ -116,6 +123,7 @@
 
 
                 <TextView
+                    android:textColor="@color/colorSecondaryText"
                     android:id="@+id/ingredients_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -132,7 +140,8 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -140,6 +149,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:textColor="@color/colorSecondaryText"
                     android:id="@+id/origin_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
