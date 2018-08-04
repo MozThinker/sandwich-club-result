@@ -78,9 +78,15 @@ public class DetailActivity extends AppCompatActivity {
     private void populateUI(Sandwich sandwich) {
 
         mDescription.setText(sandwich.getDescription());
-        mIngredients.setText(sandwich.getIngredients().toString().replace("[", "").replace("]", ""));
+        mIngredients.setText(sandwich.getIngredients().toString()
+                .replace("[", "\u2022  ")
+                .replace("]", "")
+                .replace(", ", "\n"+"\u2022  "));
         mDetailPlaceOfOrigin.setText(sandwich.getPlaceOfOrigin());
-        mAlsoKnown.setText(sandwich.getAlsoKnownAs().toString().replace("[", "").replace("]", ""));
+        mAlsoKnown.setText(sandwich.getAlsoKnownAs().toString()
+                .replace("[", "\u2022  ")
+                .replace("]", "")
+                .replace(", ", "\n"+"\u2022  "));
 
     }
 }
