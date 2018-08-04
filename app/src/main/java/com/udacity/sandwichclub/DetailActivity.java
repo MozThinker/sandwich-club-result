@@ -84,6 +84,7 @@ public class DetailActivity extends AppCompatActivity {
                 .replace(", ", "\n"+"\u2022  "));
         mDetailPlaceOfOrigin.setText(sandwich.getPlaceOfOrigin());
         mAlsoKnown.setText(sandwich.getAlsoKnownAs().toString()
+                .replace("[]", getString(R.string.name_not_available))
                 .replace("[", "\u2022  ")
                 .replace("]", "")
                 .replace(", ", "\n"+"\u2022  "));
