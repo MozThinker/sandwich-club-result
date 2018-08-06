@@ -1,4 +1,4 @@
-# Sandwich Club Project
+# Sandwich Club Project (Android Nanodegree)
 
 ## Project Overview
 In this project, I've completed the **Sandwich Club** app to
